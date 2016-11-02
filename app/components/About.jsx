@@ -12,7 +12,13 @@ var React = require('react');
 
 var About = (props) => {
     return (
-        <h1>About compnent</h1>
+        <div>
+            <h1 className="text-center">About</h1>
+            <p> this is about page </p>
+            <ul>
+                <li><a href="https://facebook.github.io/react/"> React</a> this is about react</li>
+            </ul>
+        </div>
     );
 };
 

@@ -1,6 +1,6 @@
 var axios = require('axios');
 
-const OPEN_WEATHER_MAP_URL = 'http://api.openweathermap.org/data/2.5/weather?&appid=5823e9e2ea703a25fd4ef33f5f2cff8d';
+const OPEN_WEATHER_MAP_URL = 'http://api.openweathermap.org/data/2.5/weather?&appid=5823e9e2ea703a25fd4ef33f5f2cff8d&units=imperial';
 //5823e9e2ea703a25fd4ef33f5f2cff8d
 //http://api.openweathermap.org/data/2.5/weather?q=pune&appid=5823e9e2ea703a25fd4ef33f5f2cff8d
 module.exports = {
